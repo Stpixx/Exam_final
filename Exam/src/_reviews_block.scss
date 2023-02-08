@@ -1,0 +1,44 @@
+.reviews_block{
+    background-image: url(../build/images/bg_section.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.reviews_wrap{
+    color: $color_text;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 850px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.reviews_theme{
+    padding:63px 0;
+    font-size: 36px;
+    text-align: center;
+    font-family: 'Yeseva One, cursive';
+    text-align: center;
+}
+.reviews_desc{
+    width: 690px;
+    height: 297px;
+    margin: 0 auto;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+
+    .desc_end{
+        font-family: 'Lato', sans-serif;
+        padding-top: 50px;
+    }
+}
+

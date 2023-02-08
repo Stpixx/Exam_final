@@ -1,0 +1,52 @@
+.first_section{
+    // background-image: url(../build/images/bg.jpg);
+    background-color: #f3f3f3;
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+    .left_block{
+        width: 471px;
+        text-align: center;
+        padding-top: 100px;
+        padding-left: 100px;
+    }
+
+.section_theme{
+    width: 471px;
+    font-family: 'Yeseva One, cursive';
+    font-size: 36px;
+    color: $color_yellow;
+}
+
+.section_theme::after{
+    content: url(../build/images/decoration.svg);
+    display: block;
+    margin: 15px 0;
+}
+
+
+
+.right_block_img{
+    padding-top: 100px;
+    width: 630px;
+    height: 550px;
+
+}
+
+
+.section_images{
+    padding-top: 20px;
+   padding-left: 100px;
+}
+
+.section_desc{
+    font-family: 'Lato', sans-serif;
+    width: 471px;
+    line-height: 25px;
+    color: $color_desc;
+}
+
+.right_block{
+    padding-top: 100px;
+}
+}

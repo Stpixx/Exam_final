@@ -1,0 +1,56 @@
+.price_blocks{
+width: 100%;
+height: 1174px;
+display: flex;
+justify-content: space-around;
+background-color: #f3f3f3;
+}
+.price_theme{
+    padding-top: 100px;
+    font-weight: 400;
+  color: $color_yellow;
+  font-size: 35px;
+  text-align: center;
+  font-family: 'Yeseva One, cursive';
+}
+.price_theme::after{
+    display: block;
+    content: url(../build/images/decoration.svg);
+    background-repeat: no-repeat;
+    padding: 25px;
+}
+
+.wrap{
+    margin-left: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: -60px;
+}
+
+.wrap_top{
+    border-bottom: 1px solid $color_yellow2;
+    color: $color_yellow;
+    font-size: 21px;
+    justify-content: space-between;
+    display: flex;
+}
+
+
+.desc{
+    font-family: 'Lato', sans-serif;
+}
+.price_block{
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.price_block:hover{
+    border: 1px solid #C89F2D;
+}
+
+// .left_price{
+
+
+// }

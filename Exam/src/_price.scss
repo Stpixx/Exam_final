@@ -1,0 +1,50 @@
+.price{
+width: 100%;
+height: 1174px;
+display: flex;
+justify-content: space-around;
+
+&_theme{
+    @include theme_style;
+    padding-top: 100px;
+    color: $color_yellow;
+
+    &::after{
+        display: block;
+        content: url(../build/images/decoration.svg);
+        background-repeat: no-repeat;
+        padding: 25px;
+    }
+}
+
+ &_block{
+    padding: 10px;
+    margin-bottom: 25px;
+    &:hover{
+        border: 1px solid #C89F2D;
+    }
+}
+}
+
+.wrap{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: -60px;
+    
+ &_top{
+    @include theme_style;
+    font-size: 21px;
+    border-bottom: 1px solid $color_yellow2;
+    color: $color_yellow;
+    justify-content: space-between;
+    display: flex;
+}
+
+}
+
+.desc{
+    @include desc_style;
+    text-align: left;
+}

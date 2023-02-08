@@ -1,0 +1,48 @@
+.section{
+
+    height: 750px;
+    display: flex;
+    justify-content: space-around;
+  
+
+  &_theme{
+    @include theme_style;
+    width: 471px;
+    color: $color_yellow;
+
+    &::after{
+        content: url(../build/images/decoration.svg);
+        display: block;
+        margin: 15px 0;
+    }
+}
+
+.section_desc{
+    @include desc_style;
+    width: 471px;
+    line-height: 25px;
+    color: $color_desc;
+}
+
+  &_images{
+   padding-top: 20px;
+   padding-left: 100px;
+}
+}
+
+
+  .left_block{
+        width: 471px;
+        text-align: center;
+        margin: 100px;
+    }
+
+    .right_block{
+        padding-top: 100px;
+    
+        &_img{
+            padding-top: 100px;
+            width: 630px;
+            height: 550px;
+        }
+    }

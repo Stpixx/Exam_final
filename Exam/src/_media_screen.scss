@@ -1,0 +1,104 @@
+@media screen and (max-width:768px) {
+    .header{
+        height: 1024px;
+
+        &_theme{
+            width: 90%;
+        }
+
+        &_btn{
+            width: 334px;
+            display: flex;
+        }
+    }
+   
+    .right_block_img{
+        margin: 0 auto;
+        display: none;
+    }
+
+    .ingredients_section{
+        padding: 100px 30px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .price{
+        align-items: center;
+        padding-bottom: 100px;
+        height: 2200px;
+        flex-direction:column ;
+    }
+
+    .reviews_wrap{
+        width: 90%;
+        height: 90%;
+    }
+   
+    .reviews_desc{
+        width: 100%;
+    }
+
+    .appetisers{
+        height: 1373px;
+        flex-direction: column;
+    }
+ 
+    .left_block_image{
+        width: 100%;
+        justify-content: center;
+    }
+
+    .right_block_appetisers{
+        padding-top: 76px;
+    }
+
+   .footer{
+    padding: 100px 0;
+    height: 800px;
+    flex-direction: column;
+
+    &_section{
+        padding: 25px 0;
+       }
+   }
+        
+
+}
+
+@media screen and (max-width:500px) {
+    .header{
+        &_theme{
+            width: 100%;
+        }
+        
+        &_btn{
+        width: 400px;
+        }
+    }
+
+    .ingredients_section{
+        height: 726px;
+    }
+     .reviews{
+         height: 900px;
+      
+    &_wrap{
+        width: 90%;
+        height: 100%;
+       }
+    }
+  
+   .right_block_appetisers{
+       margin: auto 0 ;
+       height: 80%;
+   }
+    
+    .appetisers{
+        height: 926px;
+    }
+
+    .images_block{
+        display: none;
+    }
+}
